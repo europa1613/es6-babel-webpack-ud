@@ -1,4 +1,5 @@
-#Commands used.
+# Commands used.
+
 `yarn global add babel-cli`
 
 `babel --version`
@@ -9,13 +10,13 @@
 
 `babel app.js`
 
-##create `.babelrc`
+## create `.babelrc`
 
 `babel app.js`
 
-##file to file output
+## file to file output
 `babel -w app-es6.js -o app-es5.js`
 
 
-##directory to dir output
+## directory to dir output
 `babel -w es6 -d es5`
