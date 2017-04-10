@@ -1,0 +1,11 @@
+{
+  "name": "babel-4m-cli",
+  "version": "1.0.0",
+  "description": "A intro to babel-cli",
+  "main": "app.js",
+  "author": "@Rvind",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
