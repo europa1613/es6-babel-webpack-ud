@@ -28,6 +28,7 @@
 
 
 //use collective export
+//also es6 object property shorthand
 export {
 	add,
 	subtract,
