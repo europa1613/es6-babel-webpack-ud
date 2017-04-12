@@ -1,4 +1,4 @@
-import pii from './modules/singleDefaultExports/pi';
+/*import pii from './modules/singleDefaultExports/pi';
 import api from './modules/singleDefaultExports/api';
 import Person from './modules/singleDefaultExports/Person';
 
@@ -33,4 +33,10 @@ console.log(add(11,11));
 console.log(subtract(99, 77));
 
 
-console.log(new MathPerson().toString());
+console.log(new MathPerson().toString());*/
+
+import singleDefaultExports from './modules/singleDefaultExports';
+import multipleNamedExports from './modules/multipleNamedExports';
+
+singleDefaultExports();
+multipleNamedExports();
