@@ -38,5 +38,18 @@ console.log(new MathPerson().toString());*/
 import singleDefaultExports from './modules/singleDefaultExports';
 import multipleNamedExports from './modules/multipleNamedExports';
 
+import spreadOperator from './modules/spreadOperator';
+import arrowFunctions from './modules/arrowFunctions';
+import enhancedObjectProperties from './modules/enhancedObjectProperties';
+import deStructuringAssigment from './modules/deStructuringAssigment';
+import defaultFunctionParameters from './modules/defaultFunctionParameters';
+
+
 singleDefaultExports();
 multipleNamedExports();
+
+spreadOperator();
+arrowFunctions();
+enhancedObjectProperties();
+deStructuringAssigment();
+defaultFunctionParameters();
