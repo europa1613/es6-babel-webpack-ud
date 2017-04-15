@@ -43,13 +43,24 @@ import arrowFunctions from './modules/arrowFunctions';
 import enhancedObjectProperties from './modules/enhancedObjectProperties';
 import deStructuringAssigment from './modules/deStructuringAssigment';
 import defaultFunctionParameters from './modules/defaultFunctionParameters';
+import promises from './modules/promises';
+import promiseAll from './modules/promise.all';
+import jokeApi from './modules/jokeApi';
+import classes from './modules/classes';
 
 
-singleDefaultExports();
-multipleNamedExports();
-
-spreadOperator();
-arrowFunctions();
-enhancedObjectProperties();
+/*defaultFunctionParameters();
 deStructuringAssigment();
-defaultFunctionParameters();
+enhancedObjectProperties();
+arrowFunctions();
+spreadOperator();
+multipleNamedExports();
+singleDefaultExports();
+promises();
+promiseAll();
+jokeApi();*/
+
+classes();
+
+
+
