@@ -15,11 +15,11 @@ export default () => {
 
 	const valueGenerator = generateValues(); 
 
-	log(JSON.stringify(valueGenerator.next()));
-	log(JSON.stringify(valueGenerator.next()));
-	log(JSON.stringify(valueGenerator.next()));
-	log(JSON.stringify(valueGenerator.next()));
-	log(JSON.stringify(valueGenerator.next()));
-	log(JSON.stringify(valueGenerator.next()));
-	log(JSON.stringify(valueGenerator.next()));
+	log(JSON.stringify(valueGenerator.next().value));
+	log(JSON.stringify(valueGenerator.next().value));
+	log(JSON.stringify(valueGenerator.next().value));
+	log(JSON.stringify(valueGenerator.next().value));
+	log(JSON.stringify(valueGenerator.next().value));
+	log(JSON.stringify(valueGenerator.next().value));
+	log(JSON.stringify(valueGenerator.next().value));
 }
