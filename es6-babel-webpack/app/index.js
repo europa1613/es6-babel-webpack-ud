@@ -47,6 +47,8 @@ import promises from './modules/promises';
 import promiseAll from './modules/promise.all';
 import jokeApi from './modules/jokeApi';
 import classes from './modules/classes';
+import generators from './modules/generators';
+
 
 
 /*defaultFunctionParameters();
@@ -61,6 +63,7 @@ promiseAll();
 jokeApi();*/
 
 classes();
+generators();
 
 
 
