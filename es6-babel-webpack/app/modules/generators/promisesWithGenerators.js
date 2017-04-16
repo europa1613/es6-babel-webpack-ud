@@ -19,16 +19,16 @@ export default () => {
 
     //same thing as above, condensed
     const getJokesPromise = n => fetch(`http://api.icndb.com/jokes/random/${n}`);
-/*
-    getRandomNumberPromise.then(number => {
-        getJokesPromise(number).then(jokesResponse => {
-            jokesResponse.json().then(jokes => {
-                //log(JSON.stringify(jokes));
-                const { value } = jokes;
-                value.forEach((joke) => log(joke.joke));
+    /*
+        getRandomNumberPromise.then(number => {
+            getJokesPromise(number).then(jokesResponse => {
+                jokesResponse.json().then(jokes => {
+                    //log(JSON.stringify(jokes));
+                    const { value } = jokes;
+                    value.forEach((joke) => log(joke.joke));
+                });
             });
-        });
-    });*/
+        });*/
 
 
     /* *****************************************************
@@ -43,5 +43,18 @@ export default () => {
         const { value: jokes } = jokesJson;
         jokes.forEach((joke) => log('==>' + joke.joke));
     })();
+
+    //executes the fetch call (check network tab) but doesn't do anything after
+    new Promise((resolve, reject) => {
+        const jokesPromise = fetch(`http://api.icndb.com/jokes/random/99`);
+        resolve();
+    });
+
+    // Doesn't execute the fetch unless the get97Jokes function is called
+    const get97Jokes = () => {
+        new Promise((resolve, reject) => {
+            const jokesPromise = fetch(`http://api.icndb.com/jokes/random/97`);
+        });
+    }
 
 }

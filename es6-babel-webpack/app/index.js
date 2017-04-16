@@ -48,7 +48,7 @@ import promiseAll from './modules/promise.all';
 import jokeApi from './modules/jokeApi';
 import classes from './modules/classes';
 import generators from './modules/generators';
-
+import mapsAndSets from './modules/mapsAndSets';
 
 
 /*defaultFunctionParameters();
@@ -63,7 +63,7 @@ promiseAll();
 jokeApi();*/
 
 //classes();
-generators();
+//generators();
 
-
+mapsAndSets();
 
