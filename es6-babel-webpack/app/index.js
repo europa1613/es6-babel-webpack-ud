@@ -49,7 +49,8 @@ import jokeApi from './modules/jokeApi';
 import classes from './modules/classes';
 import generators from './modules/generators';
 import mapsAndSets from './modules/mapsAndSets';
-
+import spreadOnObjects from './modules/beyondES6/spreadOnObjects';
+import reactApp from './modules/beyondES6/reactApplication';
 
 /*defaultFunctionParameters();
 deStructuringAssigment();
@@ -65,5 +66,7 @@ jokeApi();*/
 //classes();
 //generators();
 
-mapsAndSets();
+//mapsAndSets();
+//spreadOnObjects();
 
+reactApp();
