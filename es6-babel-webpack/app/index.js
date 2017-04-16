@@ -62,7 +62,7 @@ promises();
 promiseAll();
 jokeApi();*/
 
-classes();
+//classes();
 generators();
 
 
