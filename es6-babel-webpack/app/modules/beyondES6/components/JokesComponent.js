@@ -35,7 +35,20 @@ class JokesComponent extends Component {
     }
 
     render() {
-        return <h2 > Jokes { this.state.jokes.length } < /h2>
+        const { jokes: jokesArray } = this.state;
+        const style = {
+        	color: 'blue'
+        }
+        const jokes = jokesArray.map((joke, key) => {
+            return <li style= {style} key = { key } > { joke.joke } < /li>
+        });
+
+        return ( 
+        	< div >
+	            < h2 > Jokes { this.state.jokes.length } < /h2> 
+	            < ol > { jokes } < /ol> 
+            < /div>
+        )
     }
 }
 
